@@ -75,7 +75,7 @@ class Pipe(pg.sprite.Sprite):
         self.tmr = 0
         
     def update(self):
-        """
+        """   
         土管をスクロールする(位置の更新)を行う
         """
         self.rect.centerx -= 2
