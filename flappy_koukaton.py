@@ -278,7 +278,7 @@ def main():
                 b_items.add(BadItem([WIDTH+pipe.img0.get_width()//2, r+210]))
 
         g_items.add(g_item)
-        b_items.add(b_item)  
+        b_items.add(b_item)   
             
         if score.scorecounter % 4 == 0 and score.scorecounter != 0:# こうかとんが4枚ごとにコインを取ったとき
             n_tmr = tmr #「今の経過時間 = これまでの経過時間」の場合
